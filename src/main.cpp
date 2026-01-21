@@ -6,7 +6,7 @@ void setup() {
 }
 
 void loop() {
-    Serial.println("ESP32-C3 Arduino C++");
+    Serial.println("success");
     digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
     delay(1000);
 }
